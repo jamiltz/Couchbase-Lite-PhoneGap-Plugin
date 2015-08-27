@@ -47,7 +47,7 @@ public class CBLite extends CordovaPlugin {
 	private void initCBLite() {
 		try {
 
-		    allowedCredentials = new Credentials();
+		    allowedCredentials = new Credentials("", "");
 
 			URLStreamHandlerFactory.registerSelfIgnoreError();
 
